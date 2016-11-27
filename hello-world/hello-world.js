@@ -4,8 +4,8 @@
 //
 
 class HelloWorld {
-  hello(name) {
-    return 'Hello, World!';
+  hello(name = 'World') {
+    return `Hello, ${name}!`;
   }
 }
 
