@@ -1,6 +1,10 @@
 class HelloWorld {
+  constructor() {
+    this.greeting = 'Hello';
+  }
+
   hello(name = 'World') {
-    return `Hello, ${name}!`;
+    return `${this.greeting}, ${name}!`;
   }
 }
 
