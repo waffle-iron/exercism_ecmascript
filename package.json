@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -17,10 +17,26 @@
   },
   "homepage": "https://github.com/dylanpinn/exercism_ecmascript#readme",
   "devDependencies": {
-    "eslint": "^3.11.0",
+    "babel": "~5.8.29",
+    "codeclimate-test-reporter": "^0.4.0",
+    "coveralls": "^2.11.15",
+    "cz-conventional-changelog": "^1.2.0",
+    "del": "~2.0.2",
+    "eslint": "^3.11.1",
     "eslint-config-airbnb": "^13.0.0",
     "eslint-plugin-import": "^2.2.0",
     "eslint-plugin-jsx-a11y": "^2.2.3",
-    "eslint-plugin-react": "^6.7.1"
+    "eslint-plugin-react": "^6.7.1",
+    "gulp": "~3.9.0",
+    "gulp-babel": "~5.3.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jasmine": "~2.0.1",
+    "istanbul": "^0.4.5",
+    "yargs": "~3.27.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
